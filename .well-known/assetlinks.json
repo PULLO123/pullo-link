@@ -1,0 +1,13 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.example.pullocash",
+        "sha256_cert_fingerprints": [
+          "F6:33:17:FD:B7:40:5B:51:C6:A7:B6:24:D4:1B:22:B8:D4:BB:91:E1:5D:29:94:03:5C:5E:98:88:1B:10:F0:F0"
+        ]
+      }
+    }
+  ]
+  
