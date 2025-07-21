@@ -7,9 +7,10 @@
     const params = new URLSearchParams(window.location.search);
     const name = params.get("name");
     const uid = params.get("uid");
+    const email = params.get("email"); // ✅ ajoute cette ligne
 
     if (name && uid) {
-      window.location.href = `pullo.cash://send?name=${name}&email=${email}&uid=${uid}`;
+      window.location.href = `pullo.cash://send?name=${name}&email=${email || ""}&uid=${uid}`;
       setTimeout(() => {
         window.location.href = "https://play.google.com/store/apps/details?id=com.example.pullocash";
       }, 2000);
