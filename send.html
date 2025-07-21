@@ -7,7 +7,7 @@
     const params = new URLSearchParams(window.location.search);
     const name = params.get("name");
     const uid = params.get("uid");
-    const email = params.get("email"); // ✅ ajoute cette ligne
+    const email = params.get("email");
 
     if (name && uid) {
       window.location.href = `pullo.cash://send?name=${name}&email=${email || ""}&uid=${uid}`;
