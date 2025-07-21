@@ -1,13 +1,14 @@
 [
-    {
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "com.example.pullocash",
-        "sha256_cert_fingerprints": [
-          "F6:33:17:FD:B7:40:5B:51:C6:A7:B6:24:D4:1B:22:B8:D4:BB:91:E1:5D:29:94:03:5C:5E:98:88:1B:10:F0:F0"
-        ]
-      }
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.pullocash",
+      "sha256_cert_fingerprints": [
+        "F6:33:17:FD:B7:40:5B:51:C6:A7:B6:24:D4:1B:22:B8:D4:BB:91:E1:5D:29:94:03:5C:5E:98:88:1B:10:F0:F0",
+        "8e:81:f9:00:c2:03:8a:04:bf:1f:c9:4a:85:49:74:77:34:b4:3c:19:b6:22:4f:73:f9:d1:00:77:d2:e4:59:5c"
+      ]
     }
-  ]
-  
+  }
+]
+ 
