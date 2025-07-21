@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>PulloCash Redirect</title>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const name = params.get("name");
+    const uid = params.get("uid");
+
+    if (name && uid) {
+      window.location.href = `pullo.cash://send?name=${name}&uid=${uid}`;
+      setTimeout(() => {
+        window.location.href = "https://play.google.com/store/apps/details?id=com.example.pullocash";
+      }, 2000);
+    } else {
+      document.write("Paramètres manquants.");
+    }
+  </script>
+</head>
+<body>
+  <p>Redirection en cours vers PulloCash…</p>
+</body>
+</html>
